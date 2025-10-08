@@ -16,7 +16,7 @@ jobs:
       - name: setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.8"
+          python-version: "3.14"
       - name: install
         run: pip install .
       - name: run all checks
@@ -35,7 +35,7 @@ jobs:
       - name: setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.8"
+          python-version: "3.14"
       - name: install
         run: pip install .[dev]
       - name: get changelog entry
