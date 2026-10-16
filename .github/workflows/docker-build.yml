@@ -28,4 +28,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/get-convex/aws-quota-checker:latest
+          tags: ghcr.io/convex/aws-quota-checker:latest
